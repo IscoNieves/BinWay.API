@@ -1,0 +1,11 @@
+/Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.0/BinWayAPI.csprojResolveAssemblyReference.cache
+/Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.0/BinWayAPI.csproj.CoreCompileInputs.cache
+/Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.0/BinWayAPI.AssemblyInfoInputs.cache
+/Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.0/BinWayAPI.AssemblyInfo.cs
+/Users/developer/Projects/BinWayAPI/BinWayAPI/bin/Debug/netcoreapp1.0/BinWayAPI.deps.json
+/Users/developer/Projects/BinWayAPI/BinWayAPI/bin/Debug/netcoreapp1.0/BinWayAPI.runtimeconfig.json
+/Users/developer/Projects/BinWayAPI/BinWayAPI/bin/Debug/netcoreapp1.0/BinWayAPI.runtimeconfig.dev.json
+/Users/developer/Projects/BinWayAPI/BinWayAPI/bin/Debug/netcoreapp1.0/BinWayAPI.dll
+/Users/developer/Projects/BinWayAPI/BinWayAPI/bin/Debug/netcoreapp1.0/BinWayAPI.pdb
+/Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.0/BinWayAPI.dll
+/Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.0/BinWayAPI.pdb

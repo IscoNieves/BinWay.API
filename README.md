@@ -1,1 +1,1 @@
-BinWay.API
+BinWayAPI

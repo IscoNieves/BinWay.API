@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{71235F5A-E258-4C8A-9242-C15941DAD828}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.ItemProperties.BinWayAPI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BinWayAPI/Controllers/TwilioController.cs">
+    <Files>
+      <File FileName="BinWayAPI/Controllers/TwilioController.cs" Line="22" Column="48" />
+      <File FileName="BinWayAPI/public/chat/index.html" Line="27" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
