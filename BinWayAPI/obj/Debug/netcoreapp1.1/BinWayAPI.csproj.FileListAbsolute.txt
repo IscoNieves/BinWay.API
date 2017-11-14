@@ -9,3 +9,14 @@
 /Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.1/BinWayAPI.AssemblyInfo.cs
 /Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.1/BinWayAPI.dll
 /Users/developer/Projects/BinWayAPI/BinWayAPI/obj/Debug/netcoreapp1.1/BinWayAPI.pdb
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\bin\Debug\netcoreapp1.1\BinWayAPI.deps.json
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\bin\Debug\netcoreapp1.1\BinWayAPI.runtimeconfig.json
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\bin\Debug\netcoreapp1.1\BinWayAPI.runtimeconfig.dev.json
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\bin\Debug\netcoreapp1.1\BinWayAPI.dll
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\bin\Debug\netcoreapp1.1\BinWayAPI.pdb
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\obj\Debug\netcoreapp1.1\BinWayAPI.csprojResolveAssemblyReference.cache
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\obj\Debug\netcoreapp1.1\BinWayAPI.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\obj\Debug\netcoreapp1.1\BinWayAPI.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\obj\Debug\netcoreapp1.1\BinWayAPI.AssemblyInfo.cs
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\obj\Debug\netcoreapp1.1\BinWayAPI.dll
+C:\Users\franc\source\repos\BinWayTwilio.API\BinWay.API\BinWayAPI\obj\Debug\netcoreapp1.1\BinWayAPI.pdb

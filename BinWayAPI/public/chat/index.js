@@ -1,5 +1,5 @@
 ﻿
-$(function() {
+$(function () {
     // Get handle to the chat div 
     var $chatWindow = $('#messages');
 
@@ -8,7 +8,7 @@ $(function() {
 
     // A handle to the "general" chat channel - the one and only channel we
     // will have in this sample app
-    var generalChannel;
+    var fcoChannel;
 
     // The server will assign the client a random username - store that value
     // here
@@ -46,40 +46,39 @@ $(function() {
     // value "browser"
     $.getJSON('/token', {
         device: 'browser'
-    }, function(data) {
+    }, function (data) {
         // Alert the user they have been assigned a random username
         username = data.identity;
-        print('You have been assigned a random username of: ' 
+        print('You have been assigned the username: '
             + '<span class="me">' + username + '</span>', true);
 
         // Initialize the Chat client
         chatClient = new Twilio.Chat.Client(data.token);
 
-        chatClient.getSubscribedChannels().then(createOrJoinGeneralChannel);  
+        chatClient.getSubscribedChannels().then(createOrJoinGeneralChannel);
     });
 
     function createOrJoinGeneralChannel() {
         // Get the general chat channel, which is where all the messages are
         // sent in this simple application
-        print('Attempting to join "general" chat channel...');
+        print('Attempting to join "fcoChannel" chat channel...');
 
-        var promise = chatClient.getChannelByUniqueName('general');
-        promise.then(function(channel) {
-            generalChannel = channel;
-            console.log('Found general channel:');
-            console.log('Check console working');
-            console.log(generalChannel);
+        var promise = chatClient.getChannelByUniqueName('fcoChannel');
+        promise.then(function (channel) {
+            fcoChannel = channel;
+            console.log('Found fcoChannel channel:');
+            console.log(fcoChannel);
             setupChannel();
-        }).catch(function() {
+        }).catch(function () {
             // If it doesn't exist, let's create it
-            console.log('Creating general channel');
+            console.log('Creating fcoChannel channel');
             chatClient.createChannel({
-                uniqueName: 'general',
-                friendlyName: 'General Chat Channel'
-            }).then(function(channel) {
-                console.log('Created general channel:');
+                uniqueName: 'fcoChannel',
+                friendlyName: 'Fco Chat Channel'
+            }).then(function (channel) {
+                console.log('Created fcoChannel channel:');
                 console.log(channel);
-                generalChannel = channel;
+                fcoChannel = channel;
                 setupChannel();
             });
         });
@@ -88,22 +87,22 @@ $(function() {
     // Set up channel after it has been found
     function setupChannel() {
         // Join the general channel
-        generalChannel.join().then(function(channel) {
-            print('Joined channel as ' 
+        fcoChannel.join().then(function (channel) {
+            print('Joined channel as '
                 + '<span class="me">' + username + '</span>.', true);
         });
 
         // Listen for new messages sent to the channel
-        generalChannel.on('messageAdded', function(message) {
+        fcoChannel.on('messageAdded', function (message) {
             printMessage(message.author, message.body);
         });
     }
 
     // Send a new message to the general channel
     var $input = $('#chat-input');
-    $input.on('keydown', function(e) {
+    $input.on('keydown', function (e) {
         if (e.keyCode == 13) {
-            generalChannel.sendMessage($input.val())
+            fcoChannel.sendMessage($input.val())
             $input.val('');
         }
     });

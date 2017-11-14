@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <None Remove="public\chat\index.css" />
-    <None Remove="public\chat\index.js" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="public\chat\index.css" />

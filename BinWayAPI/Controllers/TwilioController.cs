@@ -31,7 +31,7 @@ namespace BinWayAPI.Controllers
         }
 
         [HttpGet("/token")]
-        public JsonResult Token()
+        public JsonResult Token(string id)
         {
             // This can be tracked internally by your web app.
             var identity = randomUserId();
